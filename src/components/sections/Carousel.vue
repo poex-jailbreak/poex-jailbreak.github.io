@@ -20,12 +20,10 @@ export default {
       ],
       // 选择要轮播的照片
       image_paths: [
-        "./carousel/1.jpg",
-        "./carousel/2.jpg",
-        "./carousel/3.jpg",
-        "./carousel/4.jpg",
-        "./carousel/5.jpg",
-        "./carousel/6.jpg",
+        "./carousel/1.png",
+        "./carousel/2.png",
+        "./carousel/3.png",
+        "./carousel/4.png",
       ],
     }
   }
@@ -33,9 +31,18 @@ export default {
 </script>
 
 <template>
-  <el-row justify="center">
-    <el-col :span="24">
-      <!-- 设置轮播图：循环播放、首张图序号、响应式、导航和分页、自动播放 -->
+  <div>
+    <el-divider />
+
+    <el-row justify="center">
+      <h1 class="section-title">Real-World Attack Pipeline</h1>
+    </el-row>
+
+    <br />
+
+    <el-row justify="center">
+      <el-col :span="24">
+        <!-- 设置轮播图：循环播放、首张图序号、响应式、导航和分页、自动播放 -->
       <swiper
         :loop="true"
         :slidesPerView="1"
@@ -68,6 +75,7 @@ export default {
       </swiper>
     </el-col>
   </el-row>
+  </div>
 </template>
   
 <style>
