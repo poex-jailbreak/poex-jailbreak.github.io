@@ -82,13 +82,13 @@ const addresses = [
 //   "#: Equal Contribution. *: Corresponding Author."
 
 // 最新消息
-const news = "🔥 [2025-8-15] POEX Homepage Released"
+const news = ""
 
 // 强调内容
 const emphases = [
-  "🥰 Code will be released in 7 days",
-  "🚀 Datasets will be released in 14 days"
-
+  "🔥 [2025-8-11] POEX Homepage Released",
+  "🥰 [2025-8-12] POEX Code Released",
+  "🚀 [2025-8-25] Harmful-RLbench asserts will be released"
 ]
 
 // 提供引导资料链接
@@ -96,6 +96,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
+    link: "https://arxiv.org/abs/2412.16633",
     component: Document,
   },
   {
@@ -107,7 +108,7 @@ const buttons = [
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/poex-jailbreak/poex",
+    link: "https://github.com/poex-jailbreak/poex-jailbreak",
     component: Files,
   },
   {

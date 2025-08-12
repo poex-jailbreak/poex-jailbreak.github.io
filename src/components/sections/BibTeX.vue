@@ -3,12 +3,15 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
-        "}",
+        "@misc{lu2025poexpolicyexecutablejailbreak,",
+        "    title={POEX: Towards Policy Executable Jailbreak Attacks Against the LLM-based Robots},",
+        "    author={Xuancun Lu and Zhengxian Huang and Xinfeng Li and Chi Zhang and Xiaoyu Ji and Wenyuan Xu},",
+        "    year={2025},",
+        "    eprint={2412.16633},",
+        "    archivePrefix={arXiv},",
+        "    primaryClass={cs.RO},",
+        "    url={https://arxiv.org/abs/2412.16633},",
+        "}"
       ],
     }
   },
