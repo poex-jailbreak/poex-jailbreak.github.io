@@ -86,9 +86,7 @@ const news = ""
 
 // 强调内容
 const emphases = [
-  "🔥 [2025-8-11] POEX Homepage Released",
-  "🥰 [2025-8-12] POEX Code Released",
-  "🚀 [2025-8-25] Harmful-RLbench asserts will be released"
+  "🔥 POEX Code and Datasets Harmful-RLbench Released"
 ]
 
 // 提供引导资料链接
